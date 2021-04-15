@@ -76,7 +76,6 @@
         android:layout_height="wrap_content"
         android:enabled="false"
         android:gravity="top|left"
-        android:saveEnabled="false"
-        android:hint="@string/all_terms" />
+        android:saveEnabled="false" />
 
 </LinearLayout>
