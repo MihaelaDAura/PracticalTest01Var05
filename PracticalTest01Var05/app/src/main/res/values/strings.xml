@@ -7,4 +7,6 @@
     <string name="bottom_left_button">BOTTOM LEFT</string>
     <string name="bottom_right_button">BOTTOM RIGHT</string>
     <string name="all_terms">All buttons</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">CANCEL</string>
 </resources>
