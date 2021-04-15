@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ro.pub.cs.systems.eim.practicaltest01var05.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/navigate_to_secondary_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:text="@string/navigate_to_secondary_activity" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2">
+        <Button
+            android:id="@+id/top_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/top_left_button"/>
+
+        <Button
+            android:id="@+id/top_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="@string/top_right_button"/>
+
+    </GridLayout>
+    <Button
+        android:id="@+id/center_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:text="@string/center_button"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/bottom_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/bottom_left_button"/>
+
+        <Button
+            android:id="@+id/bottom_right_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="@string/bottom_right_button" />
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/all_terms_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="top|left"
+        android:saveEnabled="false"
+        android:hint="@string/all_terms" />
+
+</LinearLayout>
